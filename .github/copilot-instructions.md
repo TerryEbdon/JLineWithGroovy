@@ -29,7 +29,7 @@ The most-recent stable library versions are preferred.
 - Unit tests must mock all network access with groovy.mock.interceptor.MockFor.
 - Unit tests must mock all file system use with groovy.mock.interceptor.MockFor.
 - Method names must be camel cased.
-- Variable and names must be camel cased.
+- Names of constants and variables must be camel cased.
 - Do not use underscores in method names or variable names.
 - Use symbolic constants, avoid magic numbers.
 
