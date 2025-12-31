@@ -22,7 +22,7 @@ import org.jline.terminal.*
 @groovy.util.logging.Log4j2
 class JLineWithGroovy {
   /**
-   * ANSI-greeting. Includes escape sequence to clear screen and & home cursor.
+   * ANSI-greeting. Includes escape sequence to clear screen and home cursor.
    */
   static final String greeting = '\33[1;1H\33[2JJLineWithGroovy'
 
